@@ -8,11 +8,19 @@ const messages = [
     'Message Four'
 ]
 
+const type = [
+    'success',
+    'info',
+    'warning'
+
+]
+
 button.addEventListener('click', () => createNotification())
 
 function createNotification () {
     const toast = document.createElement('div')
     toast.classList.add('toast')
+    toast.classList.add(getRandonType())
     toast.innerText = getRandomMessage()
     toasts.appendChild(toast)
 
@@ -23,4 +31,8 @@ function createNotification () {
 
 function getRandomMessage() {
     return messages[Math.floor(Math.random() * messages.length)]
+}
+
+function getRandonType() {
+    return type[Math.floor(Math.random() * type.length)]
 }

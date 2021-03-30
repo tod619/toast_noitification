@@ -55,3 +55,15 @@ body {
   padding: 1rem 2rem;
   margin: 0.5rem;
 }
+
+.toast.success {
+  color: green;
+}
+
+.toast.info {
+  color: blue;
+}
+
+.toast.warning {
+  color: red;
+}
