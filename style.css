@@ -1,5 +1,5 @@
 /* Google Font Import */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 
 /* Start: Global Styles */
 
@@ -8,7 +8,8 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  background-color: rebeccapurple;
+  font-family: "Poppins", sans-serif;
   height: 100vh;
   display: flex;
   flex-direction: column;
