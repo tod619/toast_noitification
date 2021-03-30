@@ -19,3 +19,22 @@ body {
   margin: 0;
 }
 /* End: Global Styles */
+
+.btn {
+  background-color: #fff;
+  color: rebeccapurple;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
